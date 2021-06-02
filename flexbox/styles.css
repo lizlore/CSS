@@ -27,7 +27,7 @@
 
 .logo {
   flex-grow: 1;
-  flex-basis: 65%;
+  flex-basis: 40%;
   padding: 10px;
   margin-left: 20px;
   color: black;
@@ -190,6 +190,11 @@
 }
 
 @media (max-width: 1334px) {
+  #menu > ul {
+    margin-top: 20px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
   #header {
     text-align: center;
   }
