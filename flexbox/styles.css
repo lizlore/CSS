@@ -129,7 +129,7 @@
   flex-wrap: wrap;
 }
 
-#asie h2 {
+#aside h2 {
   display: block;
   width: 100%;
   font-size: 18px;
@@ -150,10 +150,11 @@
 }
 
 #aside a {
-  text-align: center;
+  display: block;
   padding: 20px;
-  background: #ccc;
+  background: #eee;
   color: #444;
+  text-align: center;
   text-transform: uppercase;
   transition: all 300ms;
 }
